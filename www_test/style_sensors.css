@@ -1,0 +1,45 @@
+.grid-container {
+	height: 100%;
+    display: grid;
+    grid-template: 1fr 1fr / auto auto;
+	grid-auto-rows: 100px;
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+	padding: 20px;
+	align-content: space-between;
+}
+
+.sensor_4 {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: rgba(255, 255, 153, 0.7);
+}
+
+.very_large {
+	font-size: 600%;
+}
+
+.tab_disc {
+	font-size: 150%;
+	text-align: left;
+	width: 30%;
+}
+
+table {
+	border: 0px solid black;
+	border-spacing: 5px;
+	padding: 15px;
+	width: 100%;
+}
+
+td {
+	text-align: center;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url("tulip.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
