@@ -16,9 +16,10 @@ Eclipse configuration is available on: [here](https://docs.espressif.com/project
 
 ## This example provides
 1. wifi connection configuration, fill in `ESP_WIFI_SSID` with the name of your network SSID and `ESP_WIFI_PASS` with your network password,
-2. mDNS configuration, current hostname is defined in `MDNS_HOSTNAME`,
-3. sending incremented number every 5 seconds to the client,
-4. example www page for testing the server.
+2. maximum number of open websockets is set on 5 (`MAX_OPEN_WS_NR` in `websocket_server.c`),
+3. mDNS configuration, current hostname is defined in `MDNS_HOSTNAME`,
+4. sending incremented number every 5 seconds to the client,
+5. example www page for testing the server.
 
 ## Source Code
 ### To start server use the following code after receiving IP address:
